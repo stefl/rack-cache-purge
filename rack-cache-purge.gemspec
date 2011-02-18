@@ -4,7 +4,7 @@ $:.unshift File.expand_path('../lib', __FILE__)
 require 'rack_cache_purge/version'
 
 Gem::Specification.new do |s|
-  s.name         = "rack-cache-purge"
+  s.name         = "stefl-rack-cache-purge"
   s.version      = RackCachePurge::VERSION
   s.authors      = ["Sven Fuchs"]
   s.email        = "svenfuchs@artweb-design.de"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.rubyforge_project = '[none]'
 
-  s.add_dependency 'rack-cache', '~> 0.5'
+  s.add_dependency 'rack-cache', '~> 1.0'
 
   s.add_development_dependency 'ruby-debug'
   s.add_development_dependency 'test_declarative'
